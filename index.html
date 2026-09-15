@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Samy Bensassi, étudiant en BTS SIO option SISR." />
+  <title>Samy Bensassi — Portfolio BTS SIO SISR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="grid-bg"></div>
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#accueil">
+      <span class="brand-mark">&lt;SB/&gt;</span>
+      <span>Samy Bensassi</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav">
+      <a href="#apropos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#experience">Expériences</a>
+      <a href="#projets">Projets</a>
+      <a href="#veille">Veille</a>
+      <a class="nav-cta" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero section">
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span class="status-dot"></span> PORTFOLIO BTS SIO — OPTION SISR</p>
+        <h1>
+          Samy Bensassi
+          <span>Infrastructure, systèmes & réseaux.</span>
+        </h1>
+        <p class="hero-text">
+          Étudiant en 2e année de BTS SIO option SISR, je développe mes compétences
+          en administration de systèmes, maintenance informatique et infrastructure réseau.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projets">Voir mes projets</a>
+          <a class="btn btn-secondary" href="#contact">Me contacter</a>
+        </div>
+
+        <div class="quick-stats">
+          <div>
+            <strong>BTS SIO</strong>
+            <span>2e année</span>
+          </div>
+          <div>
+            <strong>SISR</strong>
+            <span>Systèmes & réseaux</span>
+          </div>
+          <div>
+            <strong>Sevran</strong>
+            <span>Île-de-France</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="terminal-card reveal">
+        <div class="terminal-top">
+          <span></span><span></span><span></span>
+          <small>profile.sh</small>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> whoami</p>
+          <p class="terminal-output">Samy Bensassi</p>
+
+          <p><span class="prompt">$</span> cat formation.txt</p>
+          <p class="terminal-output">BTS SIO · Option SISR · 2e année</p>
+
+          <p><span class="prompt">$</span> cat objectif.txt</p>
+          <p class="terminal-output">Construire, maintenir et sécuriser des infrastructures IT.</p>
+
+          <p><span class="prompt">$</span> status</p>
+          <p class="terminal-output success">● Disponible pour une alternance / opportunité IT</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="apropos" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 — PROFIL</p>
+        <h2>À propos de moi</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="glass-card reveal">
+          <p>
+            J’ai 24 ans et je suis actuellement étudiant en <strong>BTS Services Informatiques
+            aux Organisations, option SISR</strong>. Après un Bac STI2D puis plusieurs années
+            dans le monde professionnel, j’ai choisi de reprendre mes études pour me spécialiser
+            dans l’informatique.
+          </p>
+          <p>
+            Mon parcours m’a permis de développer de la rigueur, de l’autonomie et une vraie
+            capacité d’adaptation. Je souhaite aujourd’hui évoluer dans les métiers de
+            l’infrastructure, du support, des systèmes et des réseaux.
+          </p>
+        </div>
+
+        <div class="profile-list reveal">
+          <div class="profile-item">
+            <span>Formation</span>
+            <strong>BTS SIO — SISR</strong>
+          </div>
+          <div class="profile-item">
+            <span>École</span>
+            <strong>Institut F2I — Vincennes</strong>
+          </div>
+          <div class="profile-item">
+            <span>Diplôme</span>
+            <strong>Bac STI2D</strong>
+          </div>
+          <div class="profile-item">
+            <span>Langues</span>
+            <strong>Français · Anglais basique</strong>
+          </div>
+          <div class="profile-item">
+            <span>Qualités</span>
+            <strong>Curieux · Déterminé · Autonome</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="competences" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 — SAVOIR-FAIRE</p>
+        <h2>Compétences techniques</h2>
+        <p>Une base que je continue de renforcer au fil de ma formation et de mes expériences.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-icon">PC</div>
+          <h3>Support & maintenance</h3>
+          <p>Préparation, diagnostic, réparation, récupération et remise en service de postes informatiques.</p>
+          <div class="tags">
+            <span>Hardware</span><span>Windows</span><span>Diagnostic</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">OS</div>
+          <h3>Systèmes</h3>
+          <p>Installation et configuration de postes, gestion de base d’environnements Windows et services système.</p>
+          <div class="tags">
+            <span>Windows</span><span>Installation</span><span>Administration</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">NET</div>
+          <h3>Réseaux</h3>
+          <p>Notions d’adressage IP, configuration réseau, dépannage de connectivité et services d’infrastructure.</p>
+          <div class="tags">
+            <span>TCP/IP</span><span>LAN</span><span>Dépannage</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">VM</div>
+          <h3>Virtualisation</h3>
+          <p>Création et utilisation de machines virtuelles pour les travaux pratiques et les environnements de test.</p>
+          <div class="tags">
+            <span>VM</span><span>Lab</span><span>Tests</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">SEC</div>
+          <h3>Sécurité</h3>
+          <p>Application des bonnes pratiques de sécurité, gestion des accès et sensibilisation aux risques informatiques.</p>
+          <div class="tags">
+            <span>Accès</span><span>Bonnes pratiques</span><span>Veille</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <div class="skill-icon">DOC</div>
+          <h3>Documentation</h3>
+          <p>Rédaction de procédures, suivi d’interventions et formalisation des solutions mises en place.</p>
+          <div class="tags">
+            <span>Procédures</span><span>Support</span><span>Traçabilité</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 — PARCOURS</p>
+        <h2>Expériences</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2025 — 2026</div>
+          <div class="timeline-card">
+            <span class="badge">Informatique · Alternance</span>
+            <h3>Technicien / support informatique</h3>
+            <p>
+              Préparation de PC, réparation et diagnostic de postes, récupération de matériel,
+              remise en état et interventions de support.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Après le Bac — 2025</div>
+          <div class="timeline-card">
+            <span class="badge">Expérience professionnelle</span>
+            <h3>Factory Worker — Fabrication de filtres à air</h3>
+            <p>
+              Plusieurs années d’expérience en environnement industriel, avec développement
+              de la rigueur, du respect des procédures, de la ponctualité et du travail en équipe.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Formation</div>
+          <div class="timeline-card">
+            <span class="badge">Études</span>
+            <h3>BTS SIO — Option SISR</h3>
+            <p>
+              Formation orientée administration systèmes et réseaux, support informatique,
+              cybersécurité, gestion de services et projets d’infrastructure.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projets" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 — RÉALISATIONS</p>
+        <h2>Projets BTS / professionnels</h2>
+        <p>Ces cartes sont prêtes à être remplacées par tes vrais projets avec captures, contexte et compétences E5.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card featured reveal">
+          <div class="project-top">
+            <span class="project-number">PROJET 01</span>
+            <span class="project-status">À compléter</span>
+          </div>
+          <h3>Infrastructure réseau / Active Directory</h3>
+          <p>
+            Ajoute ici un projet réalisé en cours ou en entreprise : contexte, besoin,
+            configuration mise en place, difficultés rencontrées et résultat obtenu.
+          </p>
+          <div class="project-meta">
+            <span>Windows Server</span>
+            <span>AD DS</span>
+            <span>DNS / DHCP</span>
+          </div>
+          <a href="#" class="project-link" aria-disabled="true">Fiche projet bientôt disponible →</a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-number">PROJET 02</span>
+            <span class="project-status">À compléter</span>
+          </div>
+          <h3>Virtualisation & laboratoire</h3>
+          <p>
+            Présente ici une infrastructure virtuelle, les VM créées, les réseaux configurés
+            et les tests effectués.
+          </p>
+          <div class="project-meta">
+            <span>Virtualisation</span>
+            <span>VM</span>
+            <span>Réseau</span>
+          </div>
+          <a href="#" class="project-link" aria-disabled="true">Fiche projet bientôt disponible →</a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-top">
+            <span class="project-number">PROJET 03</span>
+            <span class="project-status">À compléter</span>
+          </div>
+          <h3>Maintenance & déploiement de postes</h3>
+          <p>
+            Exemple idéal pour valoriser ton expérience de préparation, réparation et
+            remise en service de PC.
+          </p>
+          <div class="project-meta">
+            <span>Windows</span>
+            <span>Support</span>
+            <span>Hardware</span>
+          </div>
+          <a href="#" class="project-link" aria-disabled="true">Fiche projet bientôt disponible →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="veille" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 — VEILLE TECHNOLOGIQUE</p>
+        <h2>Suivre les évolutions de l’IT</h2>
+      </div>
+
+      <div class="watch-card reveal">
+        <div>
+          <span class="badge">Sujet à définir</span>
+          <h3>Exemple : l’évolution des cyberattaques visant les entreprises</h3>
+          <p>
+            Cette section pourra présenter ton sujet de veille, ta méthode de collecte
+            d’informations, tes sources et les principaux enseignements tirés de cette veille.
+          </p>
+        </div>
+        <div class="watch-method">
+          <div><strong>01</strong><span>Collecter</span></div>
+          <div><strong>02</strong><span>Vérifier</span></div>
+          <div><strong>03</strong><span>Analyser</span></div>
+          <div><strong>04</strong><span>Synthétiser</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-card reveal">
+        <p class="eyebrow">06 — CONTACT</p>
+        <h2>Un projet ou une opportunité ?</h2>
+        <p>
+          Je suis ouvert aux opportunités me permettant de développer mes compétences
+          en systèmes, réseaux, support et infrastructure informatique.
+        </p>
+
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:ton-email@example.com">M’envoyer un e-mail</a>
+          <a class="btn btn-secondary disabled" href="#" aria-disabled="true">CV à ajouter</a>
+        </div>
+
+        <p class="contact-note">
+          À remplacer : <strong>ton-email@example.com</strong> + lien LinkedIn/GitHub si tu en as.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Samy Bensassi — Portfolio BTS SIO SISR</p>
+    <a href="#accueil">Retour en haut ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
